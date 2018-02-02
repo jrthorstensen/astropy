@@ -14,7 +14,8 @@ astropy.convolution
 ^^^^^^^^^^^^^^^^^^^
 
 astropy.coordinates
-^^^^^^^^^^^^^^^^^^^
+SkyCoord.to_string() method now adds an extra digit to the RA seconds 
+field when printing in hmsdms format. [#7149] fixes [#6158]
 
 astropy.cosmology
 ^^^^^^^^^^^^^^^^^
